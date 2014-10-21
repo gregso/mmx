@@ -19,7 +19,7 @@ end
 
 
 class AnalyzeMap
-    attr_reader :lines
+    attr_reader :lines,:sections
 
     def initialize(input_file)
         @file = input_file
@@ -42,13 +42,22 @@ class AnalyzeMap
         section_names.each do |section_name|
           if line =~ /section_name/
 
-            @sections[section_name] 
+            @sections[section_name] = Array.new
+            break
           end
+
         end
+        @sections[section_name] << line if is_not_section(line,section_names)
       end
     end
 
     private
+    def is_not_section(line,section_names)
+      section_names.each do |section_name|
+        return false if line =~ /.*section_name.*/
+      end
+    end
+    
     def line_not_empty(line)
       return line.size > 2
     end
