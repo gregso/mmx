@@ -1,0 +1,222 @@
+Testing Plan
+
+INFORMATION
+Tags: Starting
+
+PROJECT MANAGER
+
+Greg
+
+TEAM MEMBERS
+
+Dev Project Managers
+
+Testing Managers
+
+Analysts
+
+Architects
+
+AT TL
+
+DESCRIPTION
+
+Prepare testing approach that will allow 4.0 to be released as new version, without history
+
+KEY STACKHOLDERS
+
+Leszek
+
+BACKGROUND
+
+Avoid releasing all previous versions of 4.0
+
+GOALS
+Tags: Yellow
+
+Have well defined testing approach
+
+Minimize duplication of work in testing
+
+Increase testing coverage
+
+Create a baseline version for future development on 4.0
+
+REQUIREMENTS
+
+BUDGET
+
+Time of all resources spent on preparing and executing tests
+
+Time of programmers that will fix defects and evaluate problems
+
+PEOPLE
+
+All Testing Teams
+
+Analysts
+
+Architects
+
+AT Team
+
+ASSETS
+
+SCHEDULE
+
+PHASE 1
+
+TOP PRIORITIES
+
+Identify testing approaches
+
+Automated Test
+
+Manual Test
+
+Based on workflows?
+
+Based on changes?
+
+Client Specific and General
+
+70K of requirements to cover
+
+To use ACC Test Cases as starting point
+
+Assign CCP to Test Cases and scenarios
+
+Test Scenario
+
+Use Case1
+
+Feature 1
+
+Feature 2
+
+Use Case 2
+
+Feature 1
+
+Feature 2
+
+Feature 3
+
+Describe work products
+
+Schedule testing execution with 4.0 versions deliveries
+
+MID PRIORITIES
+
+LOW PRIORITIES
+
+MILESTONE 1
+
+PHASE 2
+
+TOP PRIORITIES
+
+Prepare testing scenarios
+
+MID PRIORITIES
+
+Review testing scenarios 
+
+LOW PRIORITIES
+
+MILESTONE 2
+
+PHASE 3
+
+TOP PRIORITIES
+
+Execute testing
+
+MID PRIORITIES
+
+Evaluate failures
+
+Schedule fixes
+
+LOW PRIORITIES
+
+MILESTONE 3
+
+ACTUAL PROGRESS
+
+TASKS DONE
+
+TASKS CANCELED
+
+TASKS DELAYED
+
+TASKS ON HOLD
+
+Call Initiation Meeting
+
+Describe initial approach
+
+List Work Products
+
+Estimation for whole system based on ACC scope
+
+Full list of UCs for System Test
+
+Test Sets with System Tests for CCP levels
+
+TASKS IN PROGRESS
+
+List work products
+
+List of Acceptance Test Cases - Agnieszka [10/20]
+
+List of Use Cases based on ACC TCs - Jacek [10/24]
+
+RISK
+Tags: Boring
+
+RISK 1
+
+DESCRIPTION
+
+Not enough testing resources to assign to preparing scenarios
+
+IMPACT
+
+Progress of work not going as planned
+
+SEVERITY
+
+PROBABILITY
+
+High
+
+LIKELIHOOD OF PRIOR DETECTION
+
+High
+
+MITIGATION APPROACH
+
+Get approval from Key Stakeholder for resources assignment
+
+PROPOSED SOLUTIONS
+
+RISK 2
+
+DESCRIPTION
+
+Not enough environments for testing
+
+IMPACT
+
+SEVERITY
+
+PROBABILITY
+
+LIKELIHOOD OF PRIOR DETECTION
+
+MITIGATION APPROACH
+
+PROPOSED SOLUTIONS
+
+RISK 3
